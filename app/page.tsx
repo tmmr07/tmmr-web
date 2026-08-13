@@ -1,4 +1,7 @@
 import Image from "next/image";
+import { Caveat } from 'next/font/google';
+
+const caveat = Caveat({ subsets: ['latin'], display: 'swap' });
 
 export default function Home() {
   return (
@@ -11,7 +14,7 @@ export default function Home() {
         priority
       />
       <div className="absolute inset-0 flex flex-col items-center justify-center bg-white/30">
-        <h1 className="text-white text-5xl font-bold tracking-widest text-center shadow-lg">
+        <h1 className={'text-[#FFD700] text-6xl shadow-lg text-left ${caveat.className}'}>
           Never Give Up for the Win
         </h1>
       </div>
