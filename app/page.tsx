@@ -12,7 +12,7 @@ export default function Home() {
       />
       <div className="absolute inset-0 flex flex-col items-center justify-center bg-white/30">
         <h1 className="text-white text-5xl font-bold tracking-widest text-center shadow-lg">
-          Never Give Up for the Win<br />Challenge for the Top<br />Open mind for the Grampus Family
+          Never Give Up for the Win
         </h1>
       </div>
     </main>
