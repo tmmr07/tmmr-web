@@ -111,6 +111,7 @@ export default function CreateNews() {
                 className="w-full border border-gray-300 rounded-md p-3 text-gray-900 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500"
               >
                 <option value="新機能">新機能</option>
+				<option value="不具合">不具合</option>
                 <option value="機能改善">機能改善</option>
                 <option value="不具合修正">不具合修正</option>
                 <option value="お知らせ">お知らせ</option>
