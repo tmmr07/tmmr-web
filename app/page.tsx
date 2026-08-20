@@ -70,11 +70,13 @@ export default function Home() {
   // ニュースのカテゴリごとに色を変える関数
   const getNewsCategoryColor = (category: string) => {
     switch (category) {
-      case 'お知らせ': return 'bg-[rgb(216,12,24)]';
-      case '新機能': return 'bg-[rgb(186,168,91)]';
-      case '機能改善': return 'bg-blue-600';
-      case '不具合修正': return 'bg-gray-800';
-      default: return 'bg-gray-500';
+      case '新機能': return 'bg-[#2DA44E]';
+      case '不具合': return 'bg-[#D1242F]';
+      case '機能改善': return 'bg-[#0969DA]';
+      case '不具合修正': return 'bg-[#FB8500]';
+      case 'お知らせ': return 'bg-[#8250DF]';
+      case 'その他': return 'bg-[#6E7781]';
+      default: return 'bg-[#6E7781]';
     }
   };
 
